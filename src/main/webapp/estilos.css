@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div.lista {
+	position: absolute;
+	width: 250px;
+	background-color: #fcfa98;
+	border: 1px solid #888;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.lista ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.lista ul li.selected {
+	background-color: #8080ff;
+}
+
+div.lista ul li {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 2px;
+	height: 32px;
+	cursor: pointer;
+}
